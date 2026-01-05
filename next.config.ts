@@ -4,6 +4,7 @@ import { type CodeHikeConfig } from 'codehike/mdx';
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  output: 'standalone',
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   experimental: {
     // Disabled due to font error that's causing them not to be loaded
